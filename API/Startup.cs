@@ -48,7 +48,7 @@ namespace API
       app.UseMiddleware<ErrorHandlingMiddleware>();
       if (env.IsDevelopment())
       {
-        // app.UseDeveloperExceptionPage();
+        app.UseDeveloperExceptionPage();
       }
 
       // app.UseHttpsRedirection();
